@@ -19,8 +19,8 @@ class _MyanimationsfirstState extends State<Myanimationsfirst> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: LoadingAnimationWidget.horizontalRotatingDots(color: Colors.red, size: 100),
-        // child: LoadingAnimationWidget.bouncingBall(color: Colors.yellow, size: 100)
+        // child: LoadingAnimationWidget.horizontalRotatingDots(color: Colors.red, size: 100),
+         child: LoadingAnimationWidget.bouncingBall(color: Colors.yellow, size: 100)
         ),
     );
   }
