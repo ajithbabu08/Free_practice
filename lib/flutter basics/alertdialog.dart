@@ -40,7 +40,7 @@ class _AlertDialogExampleState extends State<AlertDialogExample> {
                             onPressed: () {
                               Navigator.of(context).pop();
                             },
-                            child: Text('Cancel',style: TextStyle(color: Colors.black),)),
+                            child: Text('Cancel....',style: TextStyle(color: Colors.black),)),
                         TextButton(
                             onPressed: () {
                               Navigator.of(context).pop();
